@@ -1,0 +1,150 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://img.freepik.com/premium-photo/magnifying-glass-on-the-map-of-russia_123211-2302.jpg?w=1060);
+    background-position: 0%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+   
+}
+.container {
+  
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+#inp1{
+    width: 320px;
+    height: 116px;
+    text-align: center;
+    font-size: 40px;
+    background-color: black;
+    border-radius: 20px;
+    color: aliceblue;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px 10px white;
+}
+
+#btn1{
+   width: 120px;
+   height: 120px;
+   font-size: 40px;
+   background: white;
+   color: black;
+   font-weight: bold;
+   border-radius: 20px;
+   border: none;
+   box-shadow: 0px 0px 10px 10px gray;
+}
+#btn{
+    width: 120px;
+    height: 120px;
+    font-size: 40px;
+    background: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 0px 10px 10px gray;
+ }
+ @media (max-width:570px) {
+    #inp1{
+        width: 300px;
+height: 100px;
+    }
+    #btn1{
+        width: 100px;
+        height: 100px;
+        font-style: 20px;
+    }
+    #btn{
+        width: 100px;
+        height: 100px;
+        font-style: 20px;   
+    }
+}
+@media (max-width:520px) {
+    #inp1{
+        width: 270px;
+height: 90px;
+    }
+    #btn1{
+        width: 100px;
+        height: 90px;
+        font-style: 20px;
+    }
+    #btn{
+        width: 100px;
+        height: 90px;
+        font-style: 20px;   
+    }
+}
+@media (max-width:480px) {
+    #inp1{
+        width: 250px;
+height: 90px;
+    }
+    #btn1{
+        width: 90px;
+        height: 90px;
+        font-style: 20px;
+    }
+    #btn{
+        width: 90px;
+        height: 90px;
+        font-style: 20px;   
+    }
+}
+@media (max-width:440px) {
+    #inp1{
+        width: 230px;
+height: 70px;
+    }
+    #btn1{
+        width: 80px;
+        height: 70px;
+        font-style: 20px;
+    }
+    #btn{
+        width: 80px;
+        height: 70px;
+        font-style: 20px;   
+    }
+}
+@media (max-width:400px) {
+    #inp1{
+        width: 200px;
+height: 70px;
+    }
+    #btn1{
+        width: 70px;
+        height: 70px;
+        font-style: 20px;
+    }
+    #btn{
+        width: 70px;
+        height: 70px;
+        font-style: 20px;   
+    }
+}
+@media (max-width:340px) {
+    #inp1{
+        width: 180px;
+height: 70px;
+    }
+    #btn1{
+        width: 70px;
+        height: 70px;
+        font-style: 20px;
+    }
+    #btn{
+        width: 70px;
+        height: 70px;
+        font-style: 20px;   
+    }
+}
